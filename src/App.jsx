@@ -8,7 +8,7 @@ export default function App() {
       name: "ACS Proposed agenda and panel questions",
       url: "/ACS Proposed agenda and panel questions.pdf",
     
-      icon: FileText,
+      
       
     },
     {
@@ -16,7 +16,7 @@ export default function App() {
       name: "ACS Summit Info",
       url: "/TinT-Ftaxes - ACS Summit Info.pdf",
       
-      icon: FileText,
+      
       
     },
     {
@@ -24,7 +24,7 @@ export default function App() {
       name: "Annunal Report 2024",
       url: "/TinT-Follow Taxes - Annunal Report 2024.pdf",
       
-      icon: FileText,
+      
       
     },
     {
@@ -32,7 +32,7 @@ export default function App() {
       name: "Research Oxfam",
       url: "/Research Oxfam - Ftaxes  20250821.pdf",
       
-      icon: FileText,
+      
       
     },
     {
@@ -40,7 +40,7 @@ export default function App() {
       name: "Policy Brief August 2025",
       url: "/Policy Brief August 2025.pdf",
       
-      icon: FileText,
+      
       
     },
     {
@@ -48,7 +48,7 @@ export default function App() {
       name: "ACS Proposed agenda and panel questions",
       url: "/ACS Proposed agenda and panel questions (1).pdf",
       
-      icon: FileText,
+      
       
     },
   ];
@@ -96,17 +96,14 @@ export default function App() {
       <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
     {eventDocuments.map((document) => {
-      const IconComponent = document.icon;
+     
       return (
         <div
           key={document.id}
           className="w-full max-w-sm mx-auto group bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border border-white/20"
         >
           <div className="flex items-center justify-between mb-4">
-            <div className="p-3 bg-gradient-to-r from-green-600 to-emerald-600 rounded-xl shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-              <IconComponent className="w-6 h-6 text-white" />
-            </div>
-           
+            
           </div>
 
           <h3 className="font-semibold text-gray-900 mb-2 text-lg">
