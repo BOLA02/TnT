@@ -5,8 +5,8 @@ export default function App() {
   const eventDocuments = [
     {
       id: 1,
-      name: "ACS Proposed agenda and panel questions",
-      url: "/ACS Proposed agenda and panel questions.pdf",
+      name: "ACS Side Event agenda",
+      url: "/ACS Side Event agenda.pdf",
     
       
       
@@ -45,8 +45,8 @@ export default function App() {
     },
     {
       id: 6,
-      name: "ACS Proposed agenda and panel questions",
-      url: "/ACS Proposed agenda and panel questions (1).pdf",
+      name: "LAPA",
+      url: "/LAPA_023824.pdf",
       
       
       
