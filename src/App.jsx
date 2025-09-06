@@ -93,6 +93,22 @@ export default function App() {
         </div>
       </div>
 
+      {/* Registration Button Section */}
+        <div className="relative z-10 w-full text-center py-16">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
+            Register for the Event
+          </h2>
+          <a
+            href="https://forms.gle/93xZ9VqUU24DceFdA?utm_source=chatgpt.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white rounded-lg transition-all duration-200 font-medium shadow-md hover:shadow-lg"
+          >
+            Fill Registration Form
+          </a>
+        </div>
+
+
       <div className="flex justify-center">
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
     {eventDocuments.map((document) => {
