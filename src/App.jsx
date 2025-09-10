@@ -6,7 +6,7 @@ export default function App() {
     {
       id: 1,
       name: "ACS Side Event agenda",
-      url: "/ACS Side Event agenda.pdf",
+      url: "/ACS Proposed agenda and panel questions (1) (1).pdf",
     
       
       
