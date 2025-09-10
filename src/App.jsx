@@ -74,7 +74,7 @@ export default function App() {
         <div className="w-full mx-auto px-4 py-16 text-center justify-center">
           <div className="inline-flex items-center px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-green-800 mb-8 shadow-sm">
             <Calendar className="w-4 h-4 mr-2" />
-            Africa Climate Summit 2,  10th September, 2025 Addis Ababa, Ethiopia
+            Africa Climate Summit 2,  10th September. Room 11, 2025 Addis Ababa, Ethiopia
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight drop-shadow-lg">
             Elevating
@@ -178,7 +178,7 @@ export default function App() {
                 <MapPin className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-semibold text-white mb-2 drop-shadow">
-                Addis Ababa, Ethiopia
+                Room 11, 2025 Addis Ababa, Ethiopia
               </h3>
               <p className="text-green-100 drop-shadow">
                 Africa Climate Summit venue
