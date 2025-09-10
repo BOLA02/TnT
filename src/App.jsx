@@ -74,7 +74,7 @@ export default function App() {
         <div className="w-full mx-auto px-4 py-16 text-center justify-center">
           <div className="inline-flex items-center px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-green-800 mb-8 shadow-sm">
             <Calendar className="w-4 h-4 mr-2" />
-            Africa Climate Summit 2 -10th September, 2025 Addis Ababa, Ethiopia
+            Africa Climate Summit 2 10th September, 2025 Addis Ababa, Ethiopia
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 tracking-tight drop-shadow-lg">
             Elevating
@@ -107,6 +107,20 @@ export default function App() {
             Fill Registration Form
           </a>
         </div>
+      {/* Attendance Button Section */}
+      <div className="relative z-10 w-full text-center py-16">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">
+          Mark Your Attendance
+        </h2>
+        <a
+          href="https://forms.gle/LLRHJQzjjyYy3x7t9"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white rounded-lg transition-all duration-200 font-medium shadow-md hover:shadow-lg"
+        >
+          Fill Attendance Form
+        </a>
+      </div>
 
 
       <div className="flex justify-center">
